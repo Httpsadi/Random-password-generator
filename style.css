@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    max-width: 100vh;
+    border-radius: 40px;
+
+
+    .hero {
+        border: 4px;
+        background-color: #73707033;
+        padding: 20px;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 28px 32px;
+
+            h1 {
+                padding-bottom: 25px;
+            }
+
+            .inputbox {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            #label {
+                padding-top: 20px;
+            }
+            #password{
+                width: 319px;
+                height: 28px;
+            }
+        }
+
+        .me {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        h3 {
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 0 15px;
+            padding: 0;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .add {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            width: 310px;
+            height: 25px;
+            background-color: black;
+            color: white;
+            border-radius: 40px;
+        }
+        button:hover{
+            transform: scale(1.1);
+        }
+        .case{
+            width: 20px;
+            height: 20px;
+        }
+
+    }
+}
+
+
+.copy-btn{
+    margin-bottom: 30px;
+}
