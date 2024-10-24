@@ -16,8 +16,8 @@ body {
 
 
     .hero {
-        border: 4px;
-        background-color: #73707033;
+        border: 2px solid;
+        background-color: white;
         padding: 20px;
 
         .container {
